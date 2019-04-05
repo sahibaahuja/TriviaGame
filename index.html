@@ -1,0 +1,70 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TRIVIA GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <img src="https://www.freegreatpicture.com/files/191/19637-yellow-dots-background-wallpaper.jpg" alt="bg"
+        style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+    <div class="div1">TRIVIA GAME YAY!!!
+        <br>
+        <div class="div0">
+            <h3>PRESS START TO BEGIN</h3>
+            <button id="start">Start</button>
+            <br>
+
+            <div class="div2">
+                <form id=Form2 name="Form2">
+                    <p>Q1: Name the world's biggest island? <span id="Q1">0</span> </P>
+                    <input type="radio" name="island" value="Greenland"> Greenland
+                    <input type="radio" name="island" value="Bali"> Bali
+                    <input type="radio" name="island" value="Madagascar"> Madagascar
+
+                    <P>Q2: What is the worlds longest River? <span id="Q2">0</span></P>
+                    <input type="radio" name="River" value="Ganges"> Ganges River
+                    <input type="radio" name="River" value="Amazon"> Amazon River
+                    <input type="radio" name="River" value="Nile"> Nile River
+
+                    <P>Q3: Name the world's largest Ocean? <span id="Q3">0</span></P>
+                    <input type="radio" name="Ocean" value="Greenland"> Pacific Ocean
+                    <input type="radio" name="Ocean" value="Hawaii"> Indian Ocean
+                    <input type="radio" name="Ocean" value="Ireland"> Artic Ocean
+                    <br>
+                </form>
+
+                <div class="div3">
+                    <button id="submit">Submit</button>
+                </div>
+
+
+
+                <div class="div4">
+
+                    <p>Correct Answers: <span id="correct-answers">0</span>
+                        <p>
+                            <p>Incorrect Answers: <span id="incorrect answers">0</span>
+                                <p>
+                                    <p>Unanswered: <span id="unanswered">0</span>
+                                        <p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.0.min.js"
+            integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+
+        <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

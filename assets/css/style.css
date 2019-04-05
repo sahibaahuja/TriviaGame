@@ -1,0 +1,29 @@
+
+button {
+    width: 150px;
+    height: 100px;  
+    font-size: 30px;
+    color:lightblue;
+    
+}
+.div1 {
+    width: 1100px;
+    height: 700px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+  }
+
+.div2 {
+    color: black;
+    font-size: 25px;
+}
+
+
+
+  
+  
