@@ -3,7 +3,7 @@ var incorrectanswers = 0;
 var unanswered = 0;
 
 
-// $(".div6").hide();
+
 $(".div4").hide();
 $(".div3").hide();
 $(".div2").hide();
@@ -13,7 +13,7 @@ function start() {
   $(".div4").hide();
   $(".div3").show();
   $(".div0").hide();
-  // $(".div6").show();
+
 }
 
 $("#start").on("click", start)
